@@ -1,0 +1,99 @@
+{
+    "teams": [
+      {
+        "id": 1,
+        "name": "FC Barcelona",
+        "coach": "Ernesto Valverde",
+        "description": "The best football team in the world!"
+      },
+      {
+        "id": 2,
+        "name": "Real Madrid",
+        "coach": "Zinedine Zidane",
+        "description": "The worst football team in the world!"
+      }
+    ],
+    "products":[
+        {
+          "productId": 1,
+          "productName": "Leaf Rake",
+          "productCode": "GDN-0011",
+          "releaseDate": "March 19, 2019",
+          "description": "Leaf rake with 48-inch wooden handle.",
+          "price": 19.95,
+          "starRating": 3.2,
+          "imageUrl": "assets/images/leaf_rake.png",
+          "sellerId": 1001
+        },
+        {
+          "productId": 2,
+          "productName": "Garden Cart",
+          "productCode": "GDN-0023",
+          "releaseDate": "March 18, 2019",
+          "description": "15 gallon capacity rolling garden cart",
+          "price": 32.99,
+          "starRating": 4.2,
+          "imageUrl": "assets/images/garden_cart.png",
+          "sellerId": 1002
+        },
+        {
+          "productId": 5,
+          "productName": "Hammer",
+          "productCode": "TBX-0048",
+          "releaseDate": "May 21, 2019",
+          "description": "Curved claw steel hammer",
+          "price": 8.9,
+          "starRating": 4.8,
+          "imageUrl": "assets/images/hammer.png",
+          "sellerId": 1003
+        },
+        {
+          "productId": 8,
+          "productName": "Saw",
+          "productCode": "TBX-0022",
+          "releaseDate": "May 15, 2019",
+          "description": "15-inch steel blade hand saw",
+          "price": 11.55,
+          "starRating": 3.7,
+          "imageUrl": "assets/images/saw.png",
+          "sellerId": 1002
+        },
+        {
+          "productId": 10,
+          "productName": "Video Game Controller",
+          "productCode": "GMG-0042",
+          "releaseDate": "October 15, 2018",
+          "description": "Standard two-button video game controller",
+          "price": 35.95,
+          "starRating": 4.6,
+          "imageUrl": "assets/images/xbox-controller.png",
+          "sellerId": 1001
+        }
+      ],
+      "sellers":[
+        {
+          "sellerId": 1001,
+          "sellerName": "Rahul Shrivastava",
+          "sellerLocation": "Bangalore",
+          "sellerRating": 3.8,
+          "tradeName": "Cosmos Pvt. Ltd.",
+          "imageUrl":"https://via.placeholder.com/150/eee/333.png?text=Rahul%20Shrivastava"
+        },
+        {
+          "sellerId": 1002,
+          "sellerName": "Palash Nandi",
+          "sellerLocation": "Mumbai",
+          "sellerRating": 4.8,
+          "tradeName": "Startech Pvt. Ltd.",
+          "imageUrl":"https://via.placeholder.com/150/eee/333.png?text=Palash%20Nandi"
+        },
+        {
+          "sellerId": 1003,
+          "sellerName": "Kashmira Shah",
+          "sellerLocation": "Delhi",
+          "sellerRating": 2.8,
+          "tradeName": "WSRetail Pvt. Ltd.",
+          "imageUrl":"https://via.placeholder.com/150/eee/333.png?text=Kashmira%20Shah"
+        }
+      ]
+  }
